@@ -1,20 +1,25 @@
 {
   "name": "web-reader",
   "version": "1.0.0",
-  "description": "",
+  "description": "web reader",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": ""
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/FacePlus/web-reader.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "FacePlus",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/FacePlus/web-reader/issues"
   },
-  "homepage": "https://github.com/FacePlus/web-reader#readme"
+  "homepage": "https://github.com/FacePlus/web-reader#readme",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "mongodb": "^2.2.16",
+    "mongoskin": "^2.1.0"
+  }
 }
