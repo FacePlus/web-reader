@@ -6,6 +6,7 @@ module.exports = {
   },
   dbs: {
     userDB: MONGO_HOST + '/user',
-    fictionDB: MONGO_HOST + 'fiction'
+    fictionDB: MONGO_HOST + '/fiction',
+    categoryDB: MONGO_HOST + '/category'
   }
 };

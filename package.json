@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/FacePlus/web-reader.git"
   },
-  "keywords": [],
+  "keywords": ["nodejs", "mongodb", "express", "graphql", "react", "redux", "webpack", "babel"],
   "author": "FacePlus",
   "license": "ISC",
   "bugs": {

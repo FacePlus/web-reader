@@ -19,5 +19,6 @@ function getCollection(mongodb_uri, collection_name) {
 
 module.exports = {
   user: getCollection(settings.dbs.userDB, 'main'),
-  fiction: getCollection(settings.dbs.fictionDB, 'main')
+  fiction: getCollection(settings.dbs.fictionDB, 'main'),
+  category: getCollection(settings.dbs.categoryDB, 'main')
 };
